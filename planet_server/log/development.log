@@ -179,3 +179,1197 @@ Processing by PlanetsController#index as */*
 Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 1.3ms)
 
 
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 15:54:56 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (3.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 101ms (Views: 3.1ms | ActiveRecord: 97.8ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 15:54:57 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 15:55:06 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.7ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 15:56:52 -0500
+  [1m[35m (43.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/Steve/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.7ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 18ms (Views: 10.9ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:09:09 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.0ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 14ms (Views: 2.7ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:09:29 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (3.9ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 7ms (Views: 2.8ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:09:51 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (68.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 71ms (Views: 2.5ms | ActiveRecord: 68.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:10:31 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (33.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 35ms (Views: 1.8ms | ActiveRecord: 33.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:11:51 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:11:53 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:12:35 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.7ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:13:24 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:13:47 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:14:08 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:14:47 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:15:56 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:16:43 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.8ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:17:49 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (7.1ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 9ms (Views: 1.9ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:18:19 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:18:37 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:19:15 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:19:25 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:19:27 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (4.9ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 7ms (Views: 2.2ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:21:00 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:21:14 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:21:45 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:21:57 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.0ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:22:02 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:22:30 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:22:42 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:23:03 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (2.0ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:23:20 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:23:43 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:23:59 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (10.8ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 14ms (Views: 2.5ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:25:03 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/planets/1" for 127.0.0.1 at 2018-12-20 16:25:06 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (41.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 42.1ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:25:07 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:25:35 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (15.7ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 17ms (Views: 1.3ms | ActiveRecord: 15.7ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:26:04 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.1ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:28:14 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (65.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 67ms (Views: 1.7ms | ActiveRecord: 65.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:35:26 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.8ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 9ms (Views: 2.3ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:35:45 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:35:54 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.9ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:35:57 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:36:37 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (2.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:37:35 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:40:05 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:40:07 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:40:25 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.8ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:45:37 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.8ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:45:55 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:46:11 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:49:04 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:50:03 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.8ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:50:14 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.7ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:50:27 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:50:31 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:51:11 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (3.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 6ms (Views: 2.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:51:33 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 16:51:42 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"Mars", "num_moons"=>"2", "color"=>"Red", "planet"=>{"name"=>"Mars", "num_moons"=>"2", "color"=>"Red"}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (40.7ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mars"], ["num_moons", 2], ["color", "Red"], ["created_at", "2018-12-20 21:51:42.336969"], ["updated_at", "2018-12-20 21:51:42.336969"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 46ms (Views: 0.3ms | ActiveRecord: 42.8ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:51:42 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/planets/4" for 127.0.0.1 at 2018-12-20 16:51:50 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (40.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 45ms (Views: 0.5ms | ActiveRecord: 41.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:51:50 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 16:52:10 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"Neptune", "num_moons"=>"2", "color"=>"blue", "planet"=>{"name"=>"Neptune", "num_moons"=>"2", "color"=>"blue"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.4ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Neptune"], ["num_moons", 2], ["color", "blue"], ["created_at", "2018-12-20 21:52:10.691619"], ["updated_at", "2018-12-20 21:52:10.691619"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (40.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 45ms (Views: 0.6ms | ActiveRecord: 41.6ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:52:10 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:53:41 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:53:54 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:54:35 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:54:54 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:55:40 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:56:37 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:56:57 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:58:47 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 16:59:49 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (18.7ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 21ms (Views: 2.2ms | ActiveRecord: 18.7ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:01:52 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"Krypton", "num_moons"=>"10", "color"=>"Green", "planet"=>{"name"=>"Krypton", "num_moons"=>"10", "color"=>"Green"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.4ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Krypton"], ["num_moons", 10], ["color", "Green"], ["created_at", "2018-12-20 22:01:52.855311"], ["updated_at", "2018-12-20 22:01:52.855311"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (40.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 44ms (Views: 0.3ms | ActiveRecord: 40.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:01:52 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:03:53 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:05:03 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"Mercury", "num_moons"=>"3", "color"=>"RoseyBrown", "planet"=>{"name"=>"Mercury", "num_moons"=>"3", "color"=>"RoseyBrown"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.5ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mercury"], ["num_moons", 3], ["color", "RoseyBrown"], ["created_at", "2018-12-20 22:05:03.767815"], ["updated_at", "2018-12-20 22:05:03.767815"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (40.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 45ms (Views: 0.4ms | ActiveRecord: 40.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:05:03 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/planets/8" for 127.0.0.1 at 2018-12-20 17:05:05 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 8]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:05:05 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:05:40 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"Mercury", "num_moons"=>"3", "color"=>"dimgray", "planet"=>{"name"=>"Mercury", "num_moons"=>"3", "color"=>"dimgray"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.3ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mercury"], ["num_moons", 3], ["color", "dimgray"], ["created_at", "2018-12-20 22:05:40.474130"], ["updated_at", "2018-12-20 22:05:40.474130"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (40.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 44ms (Views: 0.9ms | ActiveRecord: 40.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:05:40 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:06:01 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:08:23 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:08:47 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"", "num_moons"=>0, "color"=>"", "planet"=>{"name"=>"", "num_moons"=>0, "color"=>""}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.4ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", ""], ["num_moons", 0], ["color", ""], ["created_at", "2018-12-20 22:08:47.661194"], ["updated_at", "2018-12-20 22:08:47.661194"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:08:47 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:08:49 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"", "num_moons"=>0, "color"=>"", "planet"=>{"name"=>"", "num_moons"=>0, "color"=>""}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.4ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", ""], ["num_moons", 0], ["color", ""], ["created_at", "2018-12-20 22:08:49.564970"], ["updated_at", "2018-12-20 22:08:49.564970"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:08:49 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:08:51 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"", "num_moons"=>0, "color"=>"", "planet"=>{"name"=>"", "num_moons"=>0, "color"=>""}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.4ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", ""], ["num_moons", 0], ["color", ""], ["created_at", "2018-12-20 22:08:51.285129"], ["updated_at", "2018-12-20 22:08:51.285129"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:08:51 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:08:52 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"", "num_moons"=>0, "color"=>"", "planet"=>{"name"=>"", "num_moons"=>0, "color"=>""}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.4ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", ""], ["num_moons", 0], ["color", ""], ["created_at", "2018-12-20 22:08:52.712757"], ["updated_at", "2018-12-20 22:08:52.712757"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:08:52 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:08:54 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"", "num_moons"=>0, "color"=>"", "planet"=>{"name"=>"", "num_moons"=>0, "color"=>""}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.5ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", ""], ["num_moons", 0], ["color", ""], ["created_at", "2018-12-20 22:08:54.189342"], ["updated_at", "2018-12-20 22:08:54.189342"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:08:54 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:08:55 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"", "num_moons"=>0, "color"=>"", "planet"=>{"name"=>"", "num_moons"=>0, "color"=>""}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.8ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", ""], ["num_moons", 0], ["color", ""], ["created_at", "2018-12-20 22:08:55.857148"], ["updated_at", "2018-12-20 22:08:55.857148"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:08:55 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/planets/10" for 127.0.0.1 at 2018-12-20 17:09:15 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 10]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:09:15 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/planets/11" for 127.0.0.1 at 2018-12-20 17:09:16 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 11]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:09:16 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/planets/12" for 127.0.0.1 at 2018-12-20 17:09:16 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 12]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:09:16 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/planets/13" for 127.0.0.1 at 2018-12-20 17:09:16 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 13]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:09:16 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/planets/14" for 127.0.0.1 at 2018-12-20 17:09:16 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mPlanet Load (0.2ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 14]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:09:16 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/planets/15" for 127.0.0.1 at 2018-12-20 17:09:16 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 15]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:09:16 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.9ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:09:58 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.7ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:20:04 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"Saturn", "num_moons"=>0, "color"=>"paleyellow", "planet"=>{"name"=>"Saturn", "num_moons"=>0, "color"=>"paleyellow"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (1.0ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Saturn"], ["num_moons", 0], ["color", "paleyellow"], ["created_at", "2018-12-20 22:20:04.562439"], ["updated_at", "2018-12-20 22:20:04.562439"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:20:04 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 8ms (Views: 3.1ms | ActiveRecord: 5.1ms)
+
+
+Started DELETE "/planets/16" for 127.0.0.1 at 2018-12-20 17:20:10 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 16]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:20:10 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:23:27 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (2.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:29:56 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (1.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 15ms (Views: 2.4ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:30:09 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:30:33 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:30:43 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:31:08 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (3.0ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:31:11 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:32:08 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (6.1ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 9ms (Views: 2.8ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:32:21 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.8ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:32:28 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:32:36 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:33:06 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (2.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:33:40 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:34:14 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:34:17 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:36:53 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (22.9ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 25ms (Views: 2.3ms | ActiveRecord: 22.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:37:43 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.7ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/planets/" for 127.0.0.1 at 2018-12-20 17:38:32 -0500
+Processing by PlanetsController#create as HTML
+  Parameters: {"name"=>"Venus", "num_moons"=>"3", "color"=>"darkyellow", "planet"=>{"name"=>"Venus", "num_moons"=>"3", "color"=>"darkyellow"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (0.6ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Venus"], ["num_moons", 3], ["color", "darkyellow"], ["created_at", "2018-12-20 22:38:32.863470"], ["updated_at", "2018-12-20 22:38:32.863470"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (40.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 45ms (Views: 0.4ms | ActiveRecord: 41.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:38:32 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/planets/17" for 127.0.0.1 at 2018-12-20 17:38:40 -0500
+Processing by PlanetsController#destroy as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[36mPlanet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "planets" WHERE "planets"."id" = $1[0m  [["id", 17]]
+  ↳ app/controllers/planets_controller.rb:25
+  [1m[35m (40.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:25
+Completed 200 OK in 44ms (Views: 0.5ms | ActiveRecord: 41.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:38:40 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:41:48 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:41:58 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:42:17 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:43:06 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:51:48 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (2.0ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 12ms (Views: 3.2ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:55:48 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (52.9ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 55ms (Views: 2.3ms | ActiveRecord: 52.9ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:56:17 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:56:22 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:56:37 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:57:56 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:58:04 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.5ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:58:41 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (5.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 12ms (Views: 5.9ms | ActiveRecord: 5.6ms)
+
+
+Started PUT "/planets/6" for 127.0.0.1 at 2018-12-20 17:58:52 -0500
+Processing by PlanetsController#update as HTML
+  Parameters: {"name"=>"Neptune", "num_moons"=>"3", "color"=>"blue", "id"=>"6", "planet"=>{"name"=>"Neptune", "num_moons"=>"3", "color"=>"blue"}}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:19
+  [1m[36mPlanet Update (0.5ms)[0m  [1m[33mUPDATE "planets" SET "num_moons" = $1, "updated_at" = $2 WHERE "planets"."id" = $3[0m  [["num_moons", 3], ["updated_at", "2018-12-20 22:58:52.865815"], ["id", 6]]
+  ↳ app/controllers/planets_controller.rb:19
+  [1m[35m (40.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:19
+Completed 200 OK in 44ms (Views: 0.3ms | ActiveRecord: 41.2ms)
+
+
+Started GET "/planets/" for 127.0.0.1 at 2018-12-20 17:58:52 -0500
+Processing by PlanetsController#index as HTML
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+

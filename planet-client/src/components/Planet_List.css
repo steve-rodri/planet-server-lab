@@ -1,0 +1,10 @@
+.list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.planets-list {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
