@@ -74,3 +74,48 @@ Processing by PlanetsController#index as */*
 Completed 200 OK in 15ms (Views: 6.9ms | ActiveRecord: 6.4ms)
 
 
+Started GET "/planets" for 127.0.0.1 at 2018-12-20 15:15:15 -0500
+Processing by PlanetsController#index as */*
+  [1m[36mPlanet Load (1.1ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 17ms (Views: 6.2ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/planets" for 127.0.0.1 at 2018-12-20 15:15:22 -0500
+Processing by PlanetsController#index as */*
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets" for 127.0.0.1 at 2018-12-20 15:16:53 -0500
+Processing by PlanetsController#index as */*
+  Parameters: {"results"=>[{"gender"=>"male", "name"=>{"title"=>"mr", "first"=>"Steve", "last"=>"Rodriguez"}, "location"=>{"street"=>"2543 rue de l'abbé-roger-derry", "city"=>"tourcoing", "state"=>"aube", "postcode"=>68454, "coordinates"=>{"latitude"=>"-4.2195", "longitude"=>"-87.6383"}, "timezone"=>{"offset"=>"-6:00", "description"=>"Central Time (US & Canada), Mexico City"}}, "email"=>"sasha.noel@example.com", "login"=>{"uuid"=>"dc349e1a-2d42-423c-a12b-c6cef91fcde0", "username"=>"blackpeacock797", "password"=>"[FILTERED]", "salt"=>"kYqlhoXO", "md5"=>"d77f9ef8786a136249fa359e782bbd0a", "sha1"=>"f07996a1aad721ecb6a9096432981b8f4e484cc2", "sha256"=>"b2bb969f265795b2ed68efbe31d15c080b628b26e1f226e295c7fa2765d8c4c0"}, "dob"=>{"date"=>"1965-07-24T14:29:11Z", "age"=>53}, "registered"=>{"date"=>"2015-04-05T10:41:33Z", "age"=>3}, "phone"=>"05-50-97-88-04", "cell"=>"06-44-74-55-66", "id"=>{"name"=>"INSEE", "value"=>"1NNaN42143117 67"}, "picture"=>{"large"=>"https://randomuser.me/api/portraits/men/88.jpg", "medium"=>"https://randomuser.me/api/portraits/med/men/88.jpg", "thumbnail"=>"https://randomuser.me/api/portraits/thumb/men/88.jpg"}, "nat"=>"FR"}], "info"=>{"seed"=>"cc74f09264f7aa3d", "results"=>1, "page"=>1, "version"=>"1.2"}, "planet"=>{}}
+  [1m[36mPlanet Load (0.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/controllers/planets_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/planets" for 127.0.0.1 at 2018-12-20 15:17:44 -0500
+Processing by PlanetsController#create as */*
+  Parameters: {"planet"=>{"name"=>"saturn", "num_moons"=>4, "color"=>"orange"}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: planets):
+  
+app/controllers/planets_controller.rb:20:in `planet_params'
+app/controllers/planets_controller.rb:13:in `create'
+Started POST "/planets" for 127.0.0.1 at 2018-12-20 15:18:31 -0500
+Processing by PlanetsController#create as */*
+  Parameters: {"planet"=>{"name"=>"saturn", "num_moons"=>4, "color"=>"orange"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[36mPlanet Create (47.9ms)[0m  [1m[32mINSERT INTO "planets" ("name", "num_moons", "color", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "saturn"], ["num_moons", 4], ["color", "orange"], ["created_at", "2018-12-20 20:18:31.975196"], ["updated_at", "2018-12-20 20:18:31.975196"]]
+  ↳ app/controllers/planets_controller.rb:13
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/planets_controller.rb:13
+Completed 200 OK in 95ms (Views: 0.9ms | ActiveRecord: 72.4ms)
+
+

@@ -5,6 +5,19 @@ class PlanetsController < ApplicationController
   end
 
   def show
-    render json: {msg: "Show"}
+    planet = Planet.find(params["id"])
+    render json: {planet: planet}
   end
+
+  def create
+    planet = Planet.create! planet_params
+    render json: {planet: planet}
+  end
+
+  private
+
+  def planet_params
+    params.require(:planet).permit(:name, :num_moons, :color)
+  end
+
 end
