@@ -124,6 +124,7 @@ class App extends Component {
           >Create</button>
       </nav>
         {this.view()}
+
       </div>
     );
   }
